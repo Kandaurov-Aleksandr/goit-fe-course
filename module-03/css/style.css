@@ -1,111 +1,142 @@
-html{
-    box-sizing: border-box;
+html {
+  box-sizing: border-box;
 }
-*, *::before, *::after{
-    box-sizing: inherit;
-}
-
-body{
-    font-family: 'Playfair Display', serif;
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
 }
 
-img{
-    display: block;
-    max-width: 100%;
-    height: auto;
+body {
+  font-family: "Playfair Display", serif;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 30px;
 }
 
 /*navigation*/
 
-.Lifestyle{
-    margin-left: 162px;
+.header {
+  padding-top: 76px;
 }
 
-.Photodiary{
-    margin-left: 120px;
+.Lifestyle {
+  margin-right: 120px;
 }
 
-.Music{
-    margin-left: 100px;
+.Photodiary {
+  margin-right: 102px;
 }
 
-.Travel{
-    margin-left: 90px;
-    margin-right: 162px;
-}
-.conteiner{
-    width: 900px;
-    margin: 0 auto;
+.Music {
+  margin-right: 94px;
 }
 
-.navigation{
-    padding: 74px 0;
+.Travel {
+  margin-right: 0;
 }
-.site-navigation{
-    font-size: 14px;
-    line-height: 24px;
-    list-style: none;
-    text-transform: uppercase;
-    margin: 0;
-    padding: 0;
+.conteiner {
+  width: 900px;
+  margin: 0 auto;
 }
-.site-navigation li{
-    display: inline-block;
+
+.navigation {
+  margin-bottom: 102px;
+}
+.site-navigation {
+  font-size: 14px;
+  line-height: 24px;
+  list-style: none;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 0;
+  padding-left: 164px;
+}
+
+.menu-item {
+  display: inline-block;
+  list-style-type: none;
+  text-align: center;
+}
+
+.site-navigation li {
+  display: inline-block;
 }
 
 .site-navigation a:hover,
-.site-navigation a:focus{
-color: #03a9f4;
+.site-navigation a:focus {
+  color: #03a9f4;
 }
-.menu-item-link{
-    text-decoration: none;
-    color: #626262;
+.menu-item-link {
+  text-decoration: none;
+  color: #626262;
 }
 
 /*content site*/
 
-.main-content{
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    font-size: 0;
-    color: #626262;
+.main-content {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  font-size: 0;
+  color: #626262;
 }
-article{
-    display: inline-block;
-    width: 420px;
-    margin-right: 60px;
-    font-size: 14px;
+article {
+  display: inline-block;
+  width: 420px;
+  margin-right: 60px;
+  font-size: 14px;
+  margin-bottom: 130px;
 }
 
 article:nth-child(2n) {
-    margin-right: 0;
+  margin-right: 0;
 }
 
-h2{
-    font-size: 30px;
+.lifestyle-4 {
+  margin-bottom: 0;
+}
+/* article:nth-last-child(-n + 2) {
+  margin-bottom: 0;
+} */
+
+h2 {
+  font-size: 30px;
+  margin-top: 0;
+  margin-bottom: 40px;
 }
 
-h3{
-    font-family: 'Ubuntu', sans-serif;
-    font-size: 14px;
-    color: #b4ad9e;
-    text-transform: uppercase;
+.headings {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 14px;
+  color: #b4ad9e;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 26px;
+}
+p {
+  margin: 0;
+  padding: 0;
 }
 
 /*button*/
 
 button {
-    border-width: 1px;
-    border-color: #626262;
-    border-style: solid;
-    background: #ffffff;
-    width: 164px;
-    height: 60px;
-    font-size: 20px;
-    font-family: "Playfair Display";
-    color: rgb(98, 98, 98);
-    margin: 56px 380px 70px 360px;  
-} 
-
-  
+  display: block;
+  border-width: 1px;
+  border-color: #626262;
+  border-style: solid;
+  background: #ffffff;
+  width: 164px;
+  height: 60px;
+  font-size: 20px;
+  font-family: "Playfair Display";
+  color: rgb(98, 98, 98);
+  margin: 0 auto;
+  margin-top: 54px;
+  margin-bottom: 70px;
+}
