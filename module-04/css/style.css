@@ -17,6 +17,7 @@ img {
   height: auto;
 }
 
+/* menu navigation */
 .menu {
   padding-top: 30px;
   padding-bottom: 90px;
@@ -75,6 +76,8 @@ img {
 .site-navigation a:focus {
   color: #1abc9c;
 }
+
+/* section 1 */
 .featured-list-item {
   float: left;
   list-style: none;
@@ -88,7 +91,7 @@ img {
   margin-right: 0;
 }
 
-.featured-title {
+.title {
   font-family: "Roboto", sans-serif;
   font-size: 48px;
   font-weight: 900;
@@ -96,13 +99,67 @@ img {
   text-transform: uppercase;
   text-align: center;
 }
-.featured-title::after {
+.title::after {
   display: block;
   margin: 0 auto;
   margin-top: 28px;
   margin-bottom: 90px;
   width: 165px;
   height: 8px;
-  background-color: #1abc9c;
+  background-color: #4ec6ab;
   content: "";
+}
+.featured-product {
+  margin-bottom: 100px;
+}
+
+/* section 2 */
+.latest-list-item {
+  float: left;
+  list-style: none;
+  width: 350px;
+  height: 262px;
+  margin-right: 30px;
+}
+
+.latest-list-item:nth-child(3n) {
+  margin-right: 0;
+}
+
+.title2 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
+  font-weight: 600;
+  color: #555252;
+  margin-top: 14px;
+}
+.title2::after {
+  display: block;
+  margin: 0;
+  margin-top: 12px;
+  margin-bottom: 28px;
+  width: 136px;
+  height: 3px;
+  background-color: #4ec6ab;
+  content: "";
+}
+
+p {
+  font-family: "Open Sans Semibold", arial;
+  font-size: 14px;
+  line-height: 26px;
+  color: #555252;
+  margin-bottom: 12px;
+}
+
+.Read-More {
+  border-radius: 3px;
+  background-color: rgb(78, 198, 171);
+  width: 159px;
+  height: 51px;
+  font-size: 16px;
+  font-family: "Open Sans";
+  color: rgb(255, 255, 255);
+  text-align: center;
+  margin-bottom: 44px;
 }
