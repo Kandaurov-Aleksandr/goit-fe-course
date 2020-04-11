@@ -91,6 +91,51 @@ img {
   margin-right: 0;
 }
 
+.featured-list-item {
+  background-color: #e9f0fd;
+}
+
+.featured-list-item img {
+  display: block;
+  margin: 0 auto;
+}
+
+.featured-list-item {
+  position: relative;
+}
+.information {
+  position: absolute;
+  bottom: 0;
+}
+
+.information {
+  width: 255px;
+  height: 40px;
+  background-color: #323232;
+}
+.product,
+.price {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 900;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.product {
+  float: left;
+  padding-left: 10px;
+  width: 201px;
+  line-height: 40px;
+}
+.price {
+  float: right;
+  background-color: #8c8c8c;
+  text-align: center;
+  width: 54px;
+  height: 40px;
+  line-height: 40px;
+}
 .title {
   font-family: "Roboto", sans-serif;
   font-size: 48px;
@@ -162,4 +207,11 @@ p {
   color: rgb(255, 255, 255);
   text-align: center;
   margin-bottom: 44px;
+}
+
+.featured-list-item:hover .information {
+  background: #1abc9c;
+}
+.featured-list-item:hover .price {
+  background: #7fd9c7;
 }
