@@ -22,12 +22,10 @@ img {
 .conteiner {
   width: 1110px;
   margin: 0 auto;
-}
-
-header {
   padding-top: 30px;
 }
-nav {
+
+.navigation {
   margin-bottom: 90px;
 }
 
