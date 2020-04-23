@@ -111,7 +111,7 @@ body {
   position: relative;
 }
 .bg-baner {
-  background-image: url(/img/slide4.png);
+  background-image: url(../img/slide4.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -170,10 +170,8 @@ body {
   text-transform: uppercase;
   line-height: 1.367;
   text-align: left;
-  
 }
 
-}
 /* section 1 */
 .featured-product {
   margin-bottom: 100px;
