@@ -111,7 +111,7 @@ body {
   position: relative;
 }
 .bg-baner {
-  background-image: url(img/slide4.png);
+  background-image: url(../img/slide4.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
