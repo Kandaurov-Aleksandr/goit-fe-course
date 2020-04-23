@@ -1,0 +1,285 @@
+html {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+img {
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+}
+
+/* menu navigation */
+header {
+  padding-top: 30px;
+  height: 90px;
+  background-color: #fff;
+  background-size: 100%;
+}
+
+body {
+  background: #e9f0fd;
+}
+
+.conteiner {
+  width: 1110px;
+  margin: 0 auto;
+}
+
+.clearfix::after {
+  display: table;
+  content: "";
+  clear: both;
+}
+
+.site-logo {
+  float: left;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #555252;
+}
+.site-logo::first-letter {
+  content: "";
+  color: #1abc9c;
+  font-weight: 900;
+}
+.site-navigation {
+  float: right;
+  margin: 0;
+  margin-top: 6px;
+  padding: 0;
+  width: 470px;
+  list-style: none;
+}
+.site-navigation li {
+  float: left;
+  margin-right: 30px;
+}
+.site-navigation li:last-child {
+  margin-right: 0;
+}
+.menu-link-item {
+  text-decoration: none;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  color: #0f0101;
+  text-transform: uppercase;
+}
+.site-navigation a:hover,
+.site-navigation a:focus {
+  color: #1abc9c;
+}
+
+.banner {
+  width: 100%;
+  min-height: 602px;
+  margin-bottom: 100px;
+  position: relative;
+}
+.box-baner {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.full-baner {
+  position: absolute;
+  width: 100%;
+  height: 602px;
+  top: 90;
+  left: 0;
+}
+.content-baner {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.bg-baner {
+  background-image: url(/img/slide4.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  height: 100%;
+  width: 100%;
+}
+.content-baner-text {
+  color: #ffffff;
+  display: table;
+  left: 0;
+  min-height: 100%;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 100%;
+  z-index: 11;
+}
+.text-baner {
+  display: inline-block;
+  width: 1110px;
+  margin-top: 200px;
+}
+.prew,
+.next {
+  display: block;
+  width: 104px;
+  height: 104px;
+  background-color: rgb(78, 198, 171);
+  opacity: 0.651;
+  position: relative;
+  font-family: "Pe-icon-7-stroke";
+  font-size: 100px;
+  color: #ffffff;
+}
+.prew {
+  float: left;
+}
+.next {
+  float: right;
+}
+.content-baner-h2 {
+  font-size: 60px;
+  font-weight: 900;
+  font-family: "Roboto";
+  color: #ffffff;
+  text-transform: uppercase;
+  margin-bottom: 18px;
+}
+.content-baner-span {
+  display: block;
+  padding-left: 175px;
+  font-size: 24px;
+  font-weight: 300;
+  font-family: "Roboto";
+  color: #ffffff;
+  text-transform: uppercase;
+  line-height: 1.367;
+  text-align: left;
+  
+}
+
+}
+/* section 1 */
+.featured-product {
+  margin-bottom: 100px;
+}
+
+.featured-list-item {
+  float: left;
+  list-style: none;
+  width: 255px;
+  height: 322px;
+  margin-right: 30px;
+  /* margin-bottom: 100px; */
+}
+
+.featured-list-item:nth-child(4n) {
+  margin-right: 0;
+}
+.featured-list-item:nth-last-child(-n + 4) {
+  margin-bottom: 0;
+}
+
+.featured-list-item {
+  background-color: #e9f0fd;
+}
+
+.featured-list-item img {
+  display: block;
+  margin: 0 auto;
+}
+
+.featured-list-item {
+  position: relative;
+}
+.information {
+  position: absolute;
+  bottom: 0;
+}
+
+.information {
+  width: 255px;
+  height: 40px;
+  background-color: #323232;
+}
+.product,
+.price {
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  font-weight: 900;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.product {
+  float: left;
+  padding-left: 10px;
+  width: 201px;
+  line-height: 40px;
+}
+.price {
+  float: right;
+  background-color: #8c8c8c;
+  text-align: center;
+  width: 54px;
+  height: 40px;
+  line-height: 40px;
+}
+
+.title {
+  font-family: "Roboto", sans-serif;
+  font-size: 48px;
+  font-weight: 900;
+  color: #515151;
+  text-transform: uppercase;
+  text-align: center;
+  margin-bottom: 92px;
+}
+
+.title::after {
+  display: block;
+  margin: 0 auto;
+  margin-top: 28px;
+  width: 165px;
+  height: 8px;
+  background-color: #4ec6ab;
+  content: "";
+}
+
+.featured-list-item:hover .information {
+  background: #1abc9c;
+}
+.featured-list-item:hover .price {
+  background: #7fd9c7;
+}
+
+/*footer*/
+
+footer {
+  height: 88px;
+  display: block;
+  background-color: #323232;
+  text-align: center;
+  font-size: 16px;
+  font-family: "OpenSans";
+  color: rgb(254, 254, 254);
+  line-height: 88px;
+}
+.colortext {
+  color: #46bfa9;
+}
