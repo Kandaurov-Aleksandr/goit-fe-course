@@ -274,7 +274,7 @@ h1 {
   border-width: 10px;
   border-color: rgba(255, 255, 255, 0.9);
   border-style: solid;
-  background-color: rgba(100, 100, 100, 0.55);
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .overlay-icon {
