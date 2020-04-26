@@ -266,16 +266,23 @@ h1 {
   width: 255px;
 }
 
+.card:hover:before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  border: 10px solid rgba(255, 255, 255, 0.5);
+  width: 100%;
+  height: calc(100% - 40px);
+}
+
 .overlay {
   display: none;
   position: absolute;
-  width: 100%;
-  height: 282px;
-  outline: 10px solid rgba(255, 255, 255, 0.9);
-  outline-offset: -10px;
-  /* border-width: 10px;
-  border-color: rgba(255, 255, 255, 0.9);
-  border-style: solid; */
+  width: 235px;
+  height: 262px;
+  top: 10px;
+  left: 10px;
   background-color: rgba(0, 0, 0, 0.5);
 }
 
