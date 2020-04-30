@@ -244,19 +244,19 @@ h1 {
 }
 
 .facebook {
-  background-image: url(./image/icon-2/facebook.png);
+  background-image: url(../image/icon-2/facebook.png);
 }
 
 .instagram {
-  background-image: url(./image/icon-2/instagram.png);
+  background-image: url(../image/icon-2/instagram.png);
 }
 
 .pinterest {
-  background-image: url(./image/icon-2/pinterest.png);
+  background-image: url(../image/icon-2/pinterest.png);
 }
 
 .twitter {
-  background-image: url(./image/icon-2/twitter.png);
+  background-image: url(../image/icon-2/twitter.png);
 }
 
 .name {
