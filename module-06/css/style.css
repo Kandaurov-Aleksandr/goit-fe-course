@@ -63,6 +63,7 @@ h1 {
 .site-navigation a:hover,
 .site-navigation a:focus {
   color: #f38181;
+  transition: all 200ms linear;
 }
 
 .menu-link a {
@@ -213,7 +214,8 @@ h1 {
     rgba(243, 129, 129, 0.9) 100%
   );
   box-shadow: 10px 10px 0px 0px #95e1d3;
-  visibility: hidden;
+  transition: all 200ms linear;
+  opacity: 0;
 }
 
 .overlay-icon {
@@ -237,7 +239,7 @@ h1 {
 }
 
 .foto-card:hover .overlay {
-  visibility: visible;
+  opacity: 1;
 }
 
 .facebook {
