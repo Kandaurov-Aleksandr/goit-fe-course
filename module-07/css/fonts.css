@@ -1,0 +1,53 @@
+/* montserrat-700 - latin */
+@font-face {
+  font-family: "Montserrat-bold";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Montserrat Bold"), local("Montserrat-Bold"),
+    url("../fonts/montserrat-v14-latin/montserrat-v14-latin-700.woff2")
+      format("woff2"),
+    url("../fonts/montserrat-v14-latin/montserrat-v14-latin-700.woff")
+      format("woff");
+}
+
+/* montserrat-400 - latin */
+@font-face {
+  font-family: "Montserrat-regular";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Montserrat Regular"), local("Montserrat-Regular"),
+    url("../fonts/montserrat-v14-latin/montserrat-v14-latin-regular.woff2")
+      format("woff2"),
+    url("../fonts/montserrat-v14-latin/montserrat-v14-latin-regular.woff")
+      format("woff");
+}
+
+/* roboto-slab-regular - latin */
+@font-face {
+  font-family: "Roboto Slab";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Roboto Slab"),
+    url("../fonts/roboto-slab-v11-latin/roboto-slab-v11-latin-regular.woff2")
+      format("woff2"),
+    url("../fonts/roboto-slab-v11-latin/roboto-slab-v11-latin-regular.woff")
+      format("woff");
+}
+
+/* droid-serif-italic*/
+@font-face {
+  font-family: "Droid Serif";
+  font-weight: normal;
+  src: local("Droid Serif"),
+    url("../fonts/droid-serif-italic/droidserifitalic.woff2") format("woff2"),
+    url("../fonts/droid-serif-italic/droidserifitalic.woff") format("woff");
+}
+
+/*wisdom-script*/
+@font-face {
+  font-family: "Wisdom Script AI";
+  src: url("//db.onlinewebfonts.com/t/d6ced0df95b7cc53e0eae88817930d08.woff2")
+      format("woff2"),
+    url("//db.onlinewebfonts.com/t/d6ced0df95b7cc53e0eae88817930d08.woff")
+      format("woff");
+}

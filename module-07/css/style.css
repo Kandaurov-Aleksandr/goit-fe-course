@@ -1,0 +1,258 @@
+html {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+img {
+  display: inline-block;
+  max-width: 100%;
+  height: auto;
+}
+
+.conteiner {
+  width: 940px;
+  margin: 0 auto;
+}
+
+/* SITE NAVIGATION MENU */
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 118px;
+  margin-bottom: 70px;
+}
+
+.site-logo {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+  font-size: 26px;
+  font-weight: 200;
+  font-family: "Wisdom Script AI", sans-serif;
+  color: #fed136;
+  text-align: center;
+}
+
+.site-navigation {
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  width: 484px;
+  list-style: none;
+}
+
+.menu-link-item {
+  text-decoration: none;
+  font-size: 14px;
+  font-family: "Montserrat-bold", sans-serif;
+  color: #3f3f3f;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.menu-link-item:focus,
+.menu-link-item:hover {
+  color: #fed136;
+}
+
+/* CONTENT SITE */
+.services {
+  margin: 0;
+  padding: 0;
+  font-size: 40px;
+  font-family: "Montserrat-bold";
+  color: #222222;
+  line-height: 1.5;
+  text-align: center;
+}
+
+span {
+  margin-bottom: 70px;
+  padding: 0;
+  display: block;
+  font-size: 16px;
+  font-family: "DroidSerif";
+  color: rgb(119, 119, 119);
+  font-style: italic;
+  line-height: 1.2;
+  text-align: center;
+}
+
+.main-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.content-site {
+  margin-bottom: 120px;
+}
+
+.main-list-item {
+  list-style: none;
+  text-align: center;
+}
+
+.main-list-item-heading {
+  font-family: "Montserrat-bold";
+  font-size: 18px;
+  color: #222222;
+}
+
+.main-list-item-text {
+  font-family: "Roboto Slab";
+  font-size: 14px;
+  color: #777777;
+  line-height: 1.5;
+}
+
+.main-list-item-heading::before {
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 74px;
+  height: 74px;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: #fed136 solid 4px;
+  border-radius: 50%;
+  margin-bottom: 24px;
+}
+
+.E-Commerce::before {
+  background-image: url(../img/Icon-Basket-1.png);
+}
+
+.Responsive-Web::before {
+  background-image: url(../img/Icon-Laptop-1.png);
+}
+
+.Web-Security::before {
+  background-image: url(../img/Icon-Locked-1.png);
+}
+.main-list-item-heading {
+  margin-bottom: 15px;
+}
+
+/* FOOTER_FORM */
+.footer-form {
+  width: 100%;
+  height: 676px;
+  background-color: #222222;
+  background-image: url(../img/Map_Image1.png);
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.contact-us {
+  font-size: 40px;
+  font-family: "Montserrat-bold";
+  color: rgb(255, 255, 255);
+  line-height: 1.5;
+  text-align: center;
+}
+.footer-contact {
+  padding-top: 108px;
+}
+
+input {
+  padding-left: 20px;
+  outline: 0;
+}
+textarea {
+  outline: 0;
+}
+
+::placeholder {
+  font-size: 14px;
+  font-family: "Montserrat-bold";
+  color: rgb(187, 187, 187);
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 1.2;
+  text-align: left;
+}
+
+.contact {
+  width: 945px;
+  height: 308px;
+}
+
+.form-box {
+  display: flex;
+  justify-content: space-between;
+}
+
+input[type="text"]:valid:not(:focus):not(:placeholder-shown) {
+  border: 2px solid rgb(9, 241, 9);
+}
+input[type="text"]:invalid:not(:focus):not(:placeholder-shown) {
+  border: 2px solid rgb(255, 0, 0);
+}
+
+input[type="email"]:valid:not(:focus):not(:placeholder-shown) {
+  border: 2px solid rgb(9, 241, 9);
+}
+input[type="email"]:invalid:not(:focus):not(:placeholder-shown) {
+  border: 2px solid rgb(255, 0, 0);
+}
+
+textarea[name="message"]:valid:not(:focus):not(:placeholder-shown) {
+  border: 2px solid rgb(9, 241, 9);
+}
+textarea[name="message"]:invalid:not(:focus):not(:placeholder-shown) {
+  border: 2px solid rgb(255, 0, 0);
+}
+
+.left-column {
+  display: flex;
+  flex-direction: column;
+  min-height: 52px;
+  width: 458px;
+  border-radius: 3px;
+}
+
+.left-column:not(:last-child) {
+  margin-bottom: 28px;
+}
+
+.left-column:focus {
+  border: 2px solid #0602f7;
+}
+
+.right-column {
+  display: flex;
+  flex-direction: column;
+  width: 458px;
+  height: 212px;
+  padding-left: 18px;
+  padding-top: 18px;
+  resize: none;
+  border-radius: 3px;
+}
+
+.right-column:focus {
+  border: 2px solid #0602f7;
+}
+
+button {
+  display: block;
+  margin: 0 auto;
+  border: none;
+  border-radius: 3px;
+  background-color: rgb(254, 209, 54);
+  width: 240px;
+  height: 66px;
+  margin-top: 30px;
+  font-size: 18px;
+  font-family: "Montserrat-bold";
+  color: rgb(255, 255, 255);
+}
