@@ -1,0 +1,74 @@
+@media (min-width: 320px) and (max-width: 767px) {
+  .site-logo {
+    position: absolute;
+    top: 170px;
+  }
+  .partner-card {
+    margin-bottom: 26px;
+  }
+}
+
+@media (min-width: 768px) {
+  .conteiner {
+    width: 748px;
+  }
+
+  .banner {
+    height: 700px;
+  }
+
+  .authorization {
+    margin: 0;
+  }
+  .site-authorization {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 44px 40px 0 40px;
+  }
+
+  .holiday-dreams {
+    width: 532px;
+    margin-top: 156px;
+    font-size: 52px;
+    margin: 0 auto;
+    margin-top: 150px;
+  }
+  .content-banner-span {
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  .partner-section {
+    margin-bottom: 30px;
+  }
+  .all-partner {
+    width: 492px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+
+  .partner-card {
+    width: 220px;
+  }
+}
+@media (min-width: 768px) and (max-width: 941px) {
+  .partner-card:nth-last-child(n + 3) {
+    margin-bottom: 50px;
+  }
+}
+
+@media (min-width: 942px) {
+  .conteiner {
+    width: 942px;
+  }
+
+  .all-partner {
+    width: 942px;
+  }
+
+  .holiday-dreams {
+    width: 942px;
+  }
+}
