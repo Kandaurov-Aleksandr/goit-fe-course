@@ -29,7 +29,7 @@ img {
 }
 
 .banner {
-  background-image: url(./img/banner.png);
+  background-image: url(../img/banner.png);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -165,22 +165,22 @@ img {
 
 .bredley::after {
   background-color: #ff4e50;
-  background-image: url(../img/icon-1.png);
+  background-image: url(./img/icon-1.png);
 }
 
 .lucas::after {
   background-color: #ffa507;
-  background-image: url(../img/icon-2.png);
+  background-image: url(./img/icon-2.png);
 }
 
 .heather::after {
   background-color: #1cd7ad;
-  background-image: url(../img/icon-3.png);
+  background-image: url(./img/icon-3.png);
 }
 
 .hunter::after {
   background-color: #4e73db;
-  background-image: url(../img/icon-4.png);
+  background-image: url(./img/icon-4.png);
 }
 .partner-name {
   font-size: 14px;
