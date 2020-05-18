@@ -79,7 +79,7 @@ img {
 }
 
 .holiday-dreams {
-  margin-top: 34px;
+  width: 300px;
   font-size: 30px;
   font-family: "Montserrat";
   color: rgb(255, 255, 255);
@@ -87,6 +87,8 @@ img {
   text-transform: uppercase;
   line-height: 1.2;
   text-align: center;
+  margin: 0 auto;
+  margin-top: 34px;
 }
 
 .content-banner-text {
