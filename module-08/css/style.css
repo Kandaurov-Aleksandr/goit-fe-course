@@ -165,22 +165,22 @@ img {
 
 .bredley::after {
   background-color: #ff4e50;
-  background-image: url(../img/icon-1.png);
+  background-image: url(../img/icon1.png);
 }
 
 .lucas::after {
   background-color: #ffa507;
-  background-image: url(../img/icon-2.png);
+  background-image: url(../img/icon2.png);
 }
 
 .heather::after {
   background-color: #1cd7ad;
-  background-image: url(../img/icon-3.png);
+  background-image: url(../img/icon3.png);
 }
 
 .hunter::after {
   background-color: #4e73db;
-  background-image: url(../img/icon-4.png);
+  background-image: url(../img/icon4.png);
 }
 .partner-name {
   font-size: 14px;
