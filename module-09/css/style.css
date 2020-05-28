@@ -252,12 +252,6 @@ img {
 }
 
 @media (min-width: 768px) and (max-width: 941px) {
-  .holiday-dreams {
-    width: 532px;
-    font-size: 52px;
-    margin: 0 auto;
-  }
-
   .content-banner-span {
     margin-top: 30px;
     margin-bottom: 30px;
@@ -278,12 +272,21 @@ img {
     width: 220px;
   }
 }
+
 @media (min-width: 768px) {
   .holiday-dreams {
+    width: 532px;
     font-size: 52px;
     margin: 0 auto;
   }
+}
+.content-banner-span {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 0;
+}
 
+@media (min-width: 768px) {
   .partner-card:nth-of-type(1) {
     order: 1;
   }
