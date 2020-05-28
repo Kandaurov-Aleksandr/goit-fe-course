@@ -279,6 +279,11 @@ img {
   }
 }
 @media (min-width: 768px) {
+  .holiday-dreams {
+    font-size: 52px;
+    margin: 0 auto;
+  }
+
   .partner-card:nth-of-type(1) {
     order: 1;
   }
