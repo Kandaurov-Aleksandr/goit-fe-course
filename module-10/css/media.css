@@ -1,11 +1,34 @@
 @media (-webkit-min-device-pixel-ratio: 2),
-(-o-min-device-pixel-ratio: 2/1),
-(min-resolution: 192dpi),
-(min-resolution: 2dppx) {
-    .wrapper {
-        background: -webkit-gradient(linear, left top, left bottom, from(rgba(243, 129, 129, .9)), to(rgba(252, 227, 138, .9))), url('/img/Layer@2x.png') center no-repeat;
-        background: -webkit-linear-gradient(top, rgba(243, 129, 129, .9), rgba(252, 227, 138, .9)), url('/img/Layer@2x.png') center no-repeat;
-        background: -o-linear-gradient(top, rgba(243, 129, 129, .9), rgba(252, 227, 138, .9)), url('/img/Layer@2x.png') center no-repeat;
-        background: linear-gradient(to bottom, rgba(243, 129, 129, .9), rgba(252, 227, 138, .9)), url('/img/Layer@2x.png') center no-repeat;
-        background-size: cover;
-    }
+  (-o-min-device-pixel-ratio: 2/1),
+  (min-resolution: 192dpi),
+  (min-resolution: 2dppx) {
+  .wrapper {
+    background: -webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        from(rgba(243, 129, 129, 0.9)),
+        to(rgba(252, 227, 138, 0.9))
+      ),
+      url("/img/Layer@2x.png") center no-repeat;
+    background: -webkit-linear-gradient(
+        top,
+        rgba(243, 129, 129, 0.9),
+        rgba(252, 227, 138, 0.9)
+      ),
+      url("/img/Layer@2x.png") center no-repeat;
+    background: -o-linear-gradient(
+        top,
+        rgba(243, 129, 129, 0.9),
+        rgba(252, 227, 138, 0.9)
+      ),
+      url("/img/Layer@2x.png") center no-repeat;
+    background: linear-gradient(
+        to bottom,
+        rgba(243, 129, 129, 0.9),
+        rgba(252, 227, 138, 0.9)
+      ),
+      url("/img/Layer@2x.png") center no-repeat;
+    background-size: cover;
+  }
+}
