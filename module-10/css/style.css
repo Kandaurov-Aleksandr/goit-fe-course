@@ -36,25 +36,25 @@ img {
       from(rgba(243, 129, 129, 0.9)),
       to(rgba(252, 227, 138, 0.9))
     ),
-    url("/img/Layer.png");
+    url("../img/Layer.png");
   background: -webkit-linear-gradient(
       top,
       rgba(243, 129, 129, 0.9),
       rgba(252, 227, 138, 0.9)
     ),
-    url("/img/Layer.png");
+    url("../img/Layer.png");
   background: -o-linear-gradient(
       top,
       rgba(243, 129, 129, 0.9),
       rgba(252, 227, 138, 0.9)
     ),
-    url("/img/Layer.png");
+    url("../img/Layer.png");
   background: linear-gradient(
       to bottom,
       rgba(243, 129, 129, 0.9),
       rgba(252, 227, 138, 0.9)
     ),
-    url("/img/Layer.png");
+    url("../img/Layer.png");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
