@@ -92,7 +92,6 @@ img {
   justify-content: space-between;
   -webkit-box-align: middle;
   -ms-flex-align: middle;
-  align-items: middle;
   list-style: none;
 }
 
@@ -132,7 +131,7 @@ img {
   margin-bottom: 50px;
   font-family: "Kaushan Script", cursive, sans-serif;
   font-size: 72px;
-  font-weight: 40;
+  font-weight: 400;
   color: #fff;
 }
 
