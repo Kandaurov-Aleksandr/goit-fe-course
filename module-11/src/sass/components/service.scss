@@ -1,0 +1,106 @@
+.service {
+  padding-top: 50px;
+  text-align: center;
+
+  &__title-first {
+    margin: 0;
+    margin-bottom: 20px;
+    @extend %section-title-first;
+    font-size: 24px;
+    line-height: 1.2;
+    color: $primary-black-color;
+  }
+
+  &__title-second {
+    margin: 0;
+    margin-bottom: 62px;
+    @extend %montserrat-bold;
+    font-size: 30px;
+    color: $primary-black-color;
+
+    &::after {
+      content: " ";
+      display: block;
+      width: 60px;
+      height: 2px;
+      margin: 0 auto;
+      margin-top: 40px;
+      background-color: $secondary-accent-color;
+    }
+  }
+}
+
+.service-section-list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  list-style: none;
+
+  &__list-item {
+    position: relative;
+    width: 350px;
+    margin-bottom: 100px;
+    padding-left: 60px;
+
+    &:first-of-type::before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      content: url(../../images/icons/ALARM.png);
+    }
+
+    &:nth-of-type(2)::before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      content: url(../../images/icons/BOOK-2.png);
+    }
+
+    &:nth-of-type(3)::before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      content: url(../../images/icons/COMPUTER-OK.png);
+    }
+
+    &:nth-of-type(4)::before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      content: url(../../images/icons/HOME.png);
+    }
+
+    &:nth-of-type(5)::before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      content: url(../../images/icons/IMAGE.png);
+    }
+
+    &:nth-of-type(6)::before {
+      position: absolute;
+      top: 0;
+      left: 0;
+      content: url(../../images/icons/LINE-GRAPH.png);
+    }
+  }
+}
+
+.service-list-inner__title,
+.service-list-inner__text {
+  width: 290px;
+  margin: 0;
+  padding: 0;
+  text-align: left;
+}
+
+.service-list-inner__title {
+  margin: 0;
+  margin-bottom: 16px;
+  padding: 0;
+  @extend %montserrat-normal;
+  color: $primary-black-color;
+  text-transform: uppercase;
+}

@@ -1,0 +1,44 @@
+.page-header {
+  padding-top: 30px;
+  margin-bottom: 174px;
+
+  &__navigation {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__list {
+    display: flex;
+    width: 490px;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+    list-style: none;
+  }
+
+  &__list-link {
+    display: block;
+    border-bottom: 2px solid $border-bottom-color;
+    @extend %header-link;
+  }
+
+  &__nav-svg {
+    fill: $primary-light-color;
+
+    &:hover {
+      fill: $primary-accent-color;
+    }
+  }
+}
+
+.page-logo {
+  display: block;
+}
+
+.page-header__list-item:not(:nth-last-of-type(-n + 2))
+  .page-header__list-link:hover,
+.page-header__list-item:not(:nth-last-of-type(-n + 2))
+  .page-header__list-link:focus {
+  color: $primary-accent-color;
+  border-bottom: 2px solid $primary-accent-color;
+}

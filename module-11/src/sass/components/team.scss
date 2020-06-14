@@ -1,0 +1,137 @@
+.team {
+  margin-bottom: 82px;
+  text-align: center;
+
+  &__text {
+    width: 942px;
+    margin: 0 auto;
+    margin-bottom: 90px;
+  }
+
+  &__title-first {
+    margin: 0;
+    margin-bottom: 20px;
+    @extend %section-title-first;
+    font-size: 24px;
+    line-height: 1.2;
+    color: $primary-black-color;
+  }
+
+  &__title-second {
+    margin: 0;
+    margin-bottom: 62px;
+    @extend %montserrat-bold;
+    font-size: 30px;
+    color: $primary-black-color;
+
+    &::after {
+      content: " ";
+      display: block;
+      width: 60px;
+      height: 2px;
+      margin: 0 auto;
+      margin-top: 40px;
+      background-color: $secondary-accent-color;
+    }
+  }
+}
+
+.team-section-list {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  justify-content: space-between;
+
+  &__layer {
+    width: 380px;
+    height: 470px;
+    margin-bottom: 28px;
+    background-color: $bg-color;
+  }
+
+  &__outer {
+    position: relative;
+    transition: 200ms;
+    transition-timing-function: linear;
+  }
+
+  &__inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(
+      to bottom,
+      rgba($secondary-accent-color, 0.9),
+      rgba($primary-accent-color, 0.9)
+    );
+    opacity: 0;
+
+    &__member-name {
+      margin: 0;
+      margin-bottom: 16px;
+      padding: 0;
+      @extend %montserrat-normal;
+      color: $primary-black-color;
+      text-transform: uppercase;
+    }
+
+    &__member-position {
+      margin: 0;
+      font-style: italic;
+    }
+  }
+}
+
+.socials-list {
+  position: absolute;
+  z-index: 1;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  list-style: none;
+  font-size: 0;
+
+  &__item {
+    width: 55px;
+    height: 55px;
+    margin-left: 1px;
+  }
+}
+
+.social-link {
+  height: 100%;
+  display: block;
+  background-position: center;
+  background-color: $primary-accent-color;
+  background-repeat: no-repeat;
+
+  &__svg {
+    margin-top: 10px;
+    fill: $secondary-accent-color;
+  }
+
+  &:hover,
+  :focus {
+    background-color: $secondary-accent-color;
+  }
+}
+
+.team-section-list__item:hover .team-section-list__outer {
+  transform: translate(-10px, -10px);
+}
+
+.team-section-list__item:hover .team-section-list__inner {
+  opacity: 1;
+}
+
+.social-link:hover .social-link__svg,
+.social-link:focus .social-link__svg {
+  fill: $primary-light-color;
+}

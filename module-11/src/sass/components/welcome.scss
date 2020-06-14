@@ -1,0 +1,32 @@
+.welcome {
+  text-align: center;
+
+  &__title-first {
+    margin: 0;
+    margin-bottom: 50px;
+    font-size: 72px;
+    @extend %section-title-first;
+    color: $primary-light-color;
+  }
+
+  &__title-second {
+    max-width: 820px;
+    margin: 0 auto;
+    margin-bottom: 110px;
+    @extend %montserrat-bold;
+    font-size: 150px;
+    color: $primary-light-color;
+  }
+}
+.learn-more {
+  display: block;
+  width: 160px;
+  margin: 0 auto;
+  padding: 12px 0;
+  border: 3px solid $primary-light-color;
+  @extend %header-link;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.2;
+  background-color: $secondary-bg-color;
+}
