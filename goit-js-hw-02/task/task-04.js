@@ -1,13 +1,9 @@
-const formatString = function (string) {
-  let letter = string.split("");
-  // console.log(letter);
-
-  if (letter.length > 40) {
-    letter.splice(40, 1000, "...");
-    return letter.join("");
-  } else {
-    return letter.join("");
+const formatString = function(string) {
+  if (string.length > 40) {
+    let longString = string.slice(0, 40);
+    return `${longString}...`;
   }
+  return string;
 };
 
 /*
