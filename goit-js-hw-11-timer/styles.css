@@ -1,0 +1,47 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1{
+  color: red;
+}
+.timer {
+  background-color: #dcece4;
+  display: flex;
+  width: 500px;
+  height: 150px;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.value {
+  display: block;
+  border-radius: 5px;
+  font-size: 50px;
+  background-image: linear-gradient(rgb(255, 255, 255), #525751);
+  font-family: "Open Sans", sans-serif;
+}
+
+.js-value {
+  transform: rotateX(360deg);
+  transition-duration: 0.1s;
+}
+
+.label {
+  font-size: 15px;
+  padding-top: 20px;
+  font-family: "Open Sans", sans-serif;
+}
